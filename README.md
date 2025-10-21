@@ -31,8 +31,8 @@ This post-processor converts CAM toolpaths into G-code compatible with Marlin 2.
 ### For Autodesk Fusion 360 / Inventor CAM
 
 1. Download the following files:
-   - `DIYCNC_Marlin20.cps`
-   - `DIYCNC_Common.js`
+   - `marlin_cnc_marlin20.cps`
+   - `marlin_cnc_common.js`
 
 2. Copy both files to your CAM post-processor directory:
    - **Windows:** `%LOCALAPPDATA%\Autodesk\Fusion 360 CAM\Posts\`
@@ -41,7 +41,7 @@ This post-processor converts CAM toolpaths into G-code compatible with Marlin 2.
 
 3. Restart your CAM software
 
-4. Select "DIYCNC Milling/Laser - Marlin 2.0" from the post-processor list when setting up your CAM operations
+4. Select "Marlin CNC Milling/Laser - Marlin 2.0" from the post-processor list when setting up your CAM operations
 
 ## Configuration
 
@@ -86,7 +86,7 @@ You can specify custom G-code files for:
 ## Usage
 
 1. Create your CAM toolpaths in Fusion 360 or Inventor CAM
-2. Select the "DIYCNC Milling/Laser - Marlin 2.0" post-processor
+2. Select the "Marlin CNC Milling/Laser - Marlin 2.0" post-processor
 3. Configure the post-processor settings according to your machine setup
 4. Generate the G-code
 5. Transfer the G-code to your CNC machine via SD card or USB

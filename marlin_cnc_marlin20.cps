@@ -5,9 +5,9 @@ https://github.com/guffy1234/mpcnc_posts_processor
 MPCNC posts processor for milling and laser/plasma cutting.
 
 */
-include("DIYCNC_Common.js");
+include("marlin_cnc_common.js");
 
-description = "DIYCNC Milling/Laser - Marlin 2.0";
+description = "Marlin CNC Milling/Laser - Marlin 2.0";
 
 mergeProperties(properties, properties3dPrinter);
 mergeProperties(propertyDefinitions, propertyDefinitions3dPrinter);

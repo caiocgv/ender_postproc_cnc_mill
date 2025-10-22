@@ -957,7 +957,7 @@ Firmware3dPrinterLike.prototype.spindleOff = function () {
     writeBlock(mFormat.format(300), sFormat.format(300), pFormat.format(3000));
     this.askUser("Turn OFF spindle", "Spindle", false);
   } else {
-    writeBlock(mFormat.format(5));
+    writeBlock(mFormat.format(107));
   }
   this.spindleEnabled = false;
 }

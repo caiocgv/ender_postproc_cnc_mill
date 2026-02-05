@@ -948,7 +948,6 @@ Firmware3dPrinterLike.prototype.spindleOn = function (_spindleSpeed, _clockwise)
     }
   } else {
     writeActivityComment(" >>> Spindle Speed " + speedFormat.format(_spindleSpeed));
-    writeBlock(mFormat.format(140), sFormat.format(50));
   }
   this.spindleEnabled = true;
 }
